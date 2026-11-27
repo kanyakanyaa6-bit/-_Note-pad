@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>เข้าสู่ระบบ | เที่ยวบ้านเรา</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">เที่ยวบ้านเรา</div>
+  <nav>
+    <a href="index.html">หน้าแรก</a>
+    <a href="places.html">ที่เที่ยว</a>
+    <a href="food.html">อาหาร</a>
+    <a href="plan.html">วางแผนเที่ยว</a>
+    <a href="travel.html">ข้อมูลการเดินทาง</a>
+    <a href="login.html">เข้าสู่ระบบ</a>
+  </nav>
+</header>
+
+<main>
+
+<div class="form-box">
+<h2>เข้าสู่ระบบ</h2>
+<form onsubmit="loginUser(event)">
+<label for="email">อีเมลผู้ใช้</label>
+<input type="email" id="email" placeholder="กรอกอีเมล" required>
+<label for="password">รหัสผ่าน</label>
+<input type="password" id="password" placeholder="กรอกรหัสผ่าน" required>
+<button class="btn" type="submit">เข้าสู่ระบบ</button>
+</form>
+<p style="text-align:center">ยังไม่มีบัญชี? <a href="register.html">สมัครสมาชิก</a></p>
+<p style="text-align:center"><a href="index.html">กลับสู่หน้าหลัก</a></p>
+<p class="note">ระบบนี้เป็นตัวอย่างสำหรับฝึกทำเว็บไซต์ ข้อมูลบัญชีเก็บไว้ในเบราว์เซอร์เครื่องนี้เท่านั้น</p>
+</div>
+
+</main>
+
+<footer>เที่ยวบ้านเรา | แนะนำสถานที่ท่องเที่ยวจังหวัดประจวบคีรีขันธ์<br>จัดทำเพื่อการศึกษาและประชาสัมพันธ์การท่องเที่ยวชุมชน</footer>
+<script src="script.js"></script>
+
+</body>
+</html>
